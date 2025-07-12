@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #EEF0F8;
+    background-repeat: no-repeat !important;
+    background-position: center top bottom !important;
+    background-size: 100% 350px !important;
+    border-radius: 0px 0px 50px 50px !important;
+    font-family: 'Inter', sans-serif;
+}

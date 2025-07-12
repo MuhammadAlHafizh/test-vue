@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "origin": "Jakarta",
+    "destination": "Bandung",
+    "status": "Not Assigned",
+    "route": "JKT-BDG",
+    "vehicle": "Truck",
+    "transporterId": null
+  },
+  {
+    "id": 2,
+    "origin": "Surabaya",
+    "destination": "Yogyakarta",
+    "status": "Assigned",
+    "route": "SBY-YK",
+    "vehicle": "Van",
+    "transporterId": 1
+  },
+  {
+    "id": 3,
+    "origin": "Medan",
+    "destination": "Padang",
+    "status": "Not Assigned",
+    "route": "MDN-PDG",
+    "vehicle": "Box",
+    "transporterId": null
+  },
+  {
+    "id": 4,
+    "origin": "Bandung",
+    "destination": "Jakarta",
+    "status": "Assigned",
+    "route": "BDG-JKT",
+    "vehicle": "Truck",
+    "transporterId": 2
+  },
+  {
+    "id": 5,
+    "origin": "Semarang",
+    "destination": "Solo",
+    "status": "Not Assigned",
+    "route": "SMG-SLO",
+    "vehicle": "Van",
+    "transporterId": null
+  },
+  {
+    "id": 6,
+    "origin": "Bali",
+    "destination": "Lombok",
+    "status": "Assigned",
+    "route": "BLI-LMB",
+    "vehicle": "Truck",
+    "transporterId": 3
+  },
+  {
+    "id": 7,
+    "origin": "Makassar",
+    "destination": "Manado",
+    "status": "Not Assigned",
+    "route": "MKS-MND",
+    "vehicle": "Box",
+    "transporterId": null
+  },
+  {
+    "id": 8,
+    "origin": "Pontianak",
+    "destination": "Samarinda",
+    "status": "Assigned",
+    "route": "PTK-SMD",
+    "vehicle": "Van",
+    "transporterId": 2
+  },
+  {
+    "id": 9,
+    "origin": "Balikpapan",
+    "destination": "Banjarmasin",
+    "status": "Not Assigned",
+    "route": "BPP-BJM",
+    "vehicle": "Truck",
+    "transporterId": null
+  },
+  {
+    "id": 10,
+    "origin": "Pekanbaru",
+    "destination": "Jambi",
+    "status": "Assigned",
+    "route": "PKU-JMB",
+    "vehicle": "Van",
+    "transporterId": 1
+  },
+  {
+    "id": 11,
+    "origin": "Aceh",
+    "destination": "Medan",
+    "status": "Not Assigned",
+    "route": "ACH-MDN",
+    "vehicle": "Truck",
+    "transporterId": null
+  },
+  {
+    "id": 12,
+    "origin": "Padang",
+    "destination": "Palembang",
+    "status": "Assigned",
+    "route": "PDG-PLB",
+    "vehicle": "Van",
+    "transporterId": 4
+  },
+  {
+    "id": 13,
+    "origin": "Palembang",
+    "destination": "Lampung",
+    "status": "Not Assigned",
+    "route": "PLB-LPG",
+    "vehicle": "Box",
+    "transporterId": null
+  },
+  {
+    "id": 14,
+    "origin": "Lampung",
+    "destination": "Jakarta",
+    "status": "Assigned",
+    "route": "LPG-JKT",
+    "vehicle": "Truck",
+    "transporterId": 5
+  },
+  {
+    "id": 15,
+    "origin": "Jakarta",
+    "destination": "Cirebon",
+    "status": "Not Assigned",
+    "route": "JKT-CRB",
+    "vehicle": "Van",
+    "transporterId": null
+  },
+  {
+    "id": 16,
+    "origin": "Cirebon",
+    "destination": "Semarang",
+    "status": "Assigned",
+    "route": "CRB-SMG",
+    "vehicle": "Truck",
+    "transporterId": 2
+  },
+  {
+    "id": 17,
+    "origin": "Solo",
+    "destination": "Yogyakarta",
+    "status": "Not Assigned",
+    "route": "SLO-YK",
+    "vehicle": "Van",
+    "transporterId": null
+  },
+  {
+    "id": 18,
+    "origin": "Yogyakarta",
+    "destination": "Surabaya",
+    "status": "Assigned",
+    "route": "YK-SBY",
+    "vehicle": "Truck",
+    "transporterId": 3
+  },
+  {
+    "id": 19,
+    "origin": "Surabaya",
+    "destination": "Malang",
+    "status": "Not Assigned",
+    "route": "SBY-MLG",
+    "vehicle": "Box",
+    "transporterId": null
+  },
+  {
+    "id": 20,
+    "origin": "Malang",
+    "destination": "Banyuwangi",
+    "status": "Assigned",
+    "route": "MLG-BWI",
+    "vehicle": "Truck",
+    "transporterId": 1
+  },
+  {
+    "id": 21,
+    "origin": "Banyuwangi",
+    "destination": "Denpasar",
+    "status": "Not Assigned",
+    "route": "BWI-DPS",
+    "vehicle": "Van",
+    "transporterId": null
+  },
+  {
+    "id": 22,
+    "origin": "Denpasar",
+    "destination": "Mataram",
+    "status": "Assigned",
+    "route": "DPS-MTR",
+    "vehicle": "Truck",
+    "transporterId": 4
+  },
+  {
+    "id": 23,
+    "origin": "Mataram",
+    "destination": "Kupang",
+    "status": "Not Assigned",
+    "route": "MTR-KPG",
+    "vehicle": "Van",
+    "transporterId": null
+  },
+  {
+    "id": 24,
+    "origin": "Kupang",
+    "destination": "Ambon",
+    "status": "Assigned",
+    "route": "KPG-AMB",
+    "vehicle": "Truck",
+    "transporterId": 5
+  },
+  {
+    "id": 25,
+    "origin": "Ambon",
+    "destination": "Sorong",
+    "status": "Not Assigned",
+    "route": "AMB-SRG",
+    "vehicle": "Box",
+    "transporterId": null
+  },
+  {
+    "id": 26,
+    "origin": "Sorong",
+    "destination": "Jayapura",
+    "status": "Assigned",
+    "route": "SRG-JPR",
+    "vehicle": "Truck",
+    "transporterId": 1
+  },
+  {
+    "id": 27,
+    "origin": "Jayapura",
+    "destination": "Manokwari",
+    "status": "Not Assigned",
+    "route": "JPR-MNK",
+    "vehicle": "Van",
+    "transporterId": null
+  },
+  {
+    "id": 28,
+    "origin": "Manokwari",
+    "destination": "Biak",
+    "status": "Assigned",
+    "route": "MNK-BIK",
+    "vehicle": "Truck",
+    "transporterId": 2
+  },
+  {
+    "id": 29,
+    "origin": "Biak",
+    "destination": "Merauke",
+    "status": "Not Assigned",
+    "route": "BIK-MRK",
+    "vehicle": "Van",
+    "transporterId": null
+  },
+  {
+    "id": 30,
+    "origin": "Merauke",
+    "destination": "Timika",
+    "status": "Assigned",
+    "route": "MRK-TMK",
+    "vehicle": "Truck",
+    "transporterId": 3
+  }
+]
