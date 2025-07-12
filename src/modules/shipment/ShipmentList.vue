@@ -59,13 +59,20 @@
     const filteredShipments = computed(() => {
         if (!search.value) return shipments.value;
 
-        const q = search.value.toLowerCase();
+        const q = search.value.toLowerCase().trim();
+
         return shipments.value.filter((s) =>
-            [s.id.toString(), s.origin, s.destination, s.status].some((field) =>
+            [
+                String(s.id),
+                s.origin || '',
+                s.destination || '',
+                s.status || ''
+            ].some((field) =>
                 field.toLowerCase().includes(q)
             )
         );
     });
+
 
     const totalPages = computed(() => {
         return Math.ceil(filteredShipments.value.length / perPage) || 1;
