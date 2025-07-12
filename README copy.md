@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# Shipment Table Demo
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple responsive shipment table built with Vue 3 + Vite.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+**Features:**
+- Responsive table (mobile & desktop)
+- Click row to expand details on mobile
+- View details page link
+- Simple status badges
+- Fully reusable component
+
+**Live Demo:** [https://test-vue-self.vercel.app/](https://test-vue-self.vercel.app/)
+
+---
+
+## How to run locally
+
+```bash
+npm install
+npm run dev
